@@ -8,3 +8,16 @@ Após a instalação do git na máquina, deve-se acessar o local do repositório
 
 ## Iniciando o Repositório
 ### Comando inicial: git init
+Este comando inicia o repositório com versionamento
+
+### git add arquivo
+Adiciona os arquivos para a área de staging
+
+### git commit -m "mensagem"
+Retira os arquivos da área de staging e envia para o commit
+
+### git remote add origin <link.git>
+Direciona a conexão do repositório local para o repositório remoto
+
+### git push -u origin main
+Enviar o commit para o origin (repositório remoto) na branch main
